@@ -20,6 +20,10 @@ With context parameters :
 	sampleText.fillStyle 	= "#000000";\n
 	...
 	
+Content :
+
+	this.content = "Hello Text";
+	
 And position on screen :
 
 	sampleText.position  	= { x : 0, y : 40 };
