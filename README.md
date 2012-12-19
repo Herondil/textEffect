@@ -29,3 +29,7 @@ And position on screen :
 ##3) Render it !
 
 	sampleText.render(myContext);
+	
+	
+	
+Thank for your golden support, feel free to send feedbacks !
