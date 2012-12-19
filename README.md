@@ -27,7 +27,7 @@ Content :
 And position on screen :
 
 	sampleText.position  	= { x : 0, y : 40 };
-	sampleTextis.angle	   	= 180;
+	sampleText.angle	   	= 180;
 	
 	
 ##3) Render it !
