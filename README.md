@@ -12,13 +12,20 @@ A javascript object to draw texts on a canvas !
 	
 ##2) Customize it
 
+With context parameters :
+
 	sampleText.font 		= "30px Arial";\n
 	sampleText.textAlign 	= "start";\n
 	sampleText.baseLine 	= "alphabetic";\n
-	this.fillStyle = "#000000";\n
+	sampleText.fillStyle 	= "#000000";\n
 	...
+	
+And position on screen :
 
-
+	sampleText.position  	= { x : 0, y : 40 };
+	sampleTextis.angle	   	= 180;
+	
+	
 ##3) Render it !
 
-	sampleText.render();
+	sampleText.render(myContext);
