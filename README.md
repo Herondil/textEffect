@@ -22,7 +22,7 @@ With context parameters :
 	
 Content :
 
-	this.content = "Hello Text";
+	sampleText.content = "Hello Text";
 	
 And position on screen :
 
