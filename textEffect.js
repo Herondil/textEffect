@@ -33,9 +33,9 @@ define( function() {
 	};
 	
 	//draw the textEffect
-	textEffect.prototype.render = function(_ctx){
+	textEffect.prototype.render = function(_ctx, _xOffset, _yOffset){
 		_ctx.save();
-			_ctx.translate	(this.position.x,this.position.y);
+			_ctx.translate	(this.position.x - _xOffset, this.position.y - _yOffset);
 			_ctx.rotate		(this.angle);
 			_ctx.font 			= this.font;
 			_ctx.textAlign 		= this.textAlign;
@@ -45,7 +45,7 @@ define( function() {
 			_ctx.strokeText	(this.content,0,0);
 			_ctx.fillText	(this.content,0,0);
 			//we had more strokes with strokeStrength
-			for(var i = 0; i < this.strokeStrength; i++) _ctx.strokeText	(this.content,this.position.x,this.position.y);
+			for(var i = 0; i < this.strokeStrength; i++) _ctx.strokeText	(this.content,0,0);
 			this.textWidth = _ctx.measureText(this.content);
 		_ctx.restore();
 	};
