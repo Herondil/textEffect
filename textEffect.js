@@ -1,6 +1,5 @@
 define( function() {
 
-
 	var textEffect = function(){		
 		//the content of the text
 		this.content = "default text";

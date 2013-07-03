@@ -36,4 +36,4 @@ And position on screen :
 	
 	
 	
-Thank for your golden support, feel free to send feedbacks !
+Thanks for your support !
