@@ -14,10 +14,10 @@ A javascript object to draw texts on a canvas !
 
 With context parameters :
 
-	sampleText.font 		= "30px Arial";\n
-	sampleText.textAlign 	= "start";\n
-	sampleText.baseLine 	= "alphabetic";\n
-	sampleText.fillStyle 	= "#000000";\n
+	sampleText.font 		= "30px Arial";
+	sampleText.textAlign 	= "start";
+	sampleText.baseLine 	= "alphabetic";
+	sampleText.fillStyle 	= "#000000";
 	...
 	
 Content :
