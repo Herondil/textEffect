@@ -30,10 +30,7 @@ And position on screen :
 	sampleText.angle	   	= 180;
 	
 	
-##3) Render it !
+##3) And Render it !
 
 	sampleText.render(myContext);
 	
-	
-	
-Thanks for your support !
